@@ -2,7 +2,16 @@
 This uses internal camera on the computer for test.
 ISSUES: Prediction is too slow. The real-time camera lags.
 POSSIBLE SOLUTIONS: Enable GPU Acceleration; Adjust Frame Rate
+
+Reference Link: https://universe.roboflow.com/joshua-eni4h/charging-ports-fr5zv/model/1
+
+To setup, install the following command in the terminal:
+pip install opencv-python
+python -m pip install --upgrade pip
+python -m pip install depthai
+pip install roboflowoak
 '''
+
 import cv2
 import requests
 import json
