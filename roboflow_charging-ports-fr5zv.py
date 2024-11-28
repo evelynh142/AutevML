@@ -5,14 +5,14 @@ The RoboflowOak library is specifically designed to interface with
 Luxonis OAK (OpenCV AI Kit) devices, which are external cameras that provide advanced computer vision capabilities.
 If you have OAK, then you can try the following steps. 
 (if not, use the other file to test it on your computer's internal cammer.)
-'''
-'''
-SETUP: Install the following command in terminal
+
+To setup, install the following command in the terminal:
 pip install opencv-python
 python -m pip install --upgrade pip
 python -m pip install depthai
 pip install roboflowoak
 '''
+
 from roboflowoak import RoboflowOak
 import cv2
 import time
