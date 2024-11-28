@@ -3,6 +3,8 @@ Reference Link: https://universe.roboflow.com/joshua-eni4h/charging-ports-fr5zv/
 
 The RoboflowOak library is specifically designed to interface with 
 Luxonis OAK (OpenCV AI Kit) devices, which are external cameras that provide advanced computer vision capabilities.
+If you have OAK, then you can try the following steps. 
+(if not, use the other file to test it on your computer's internal cammer.)
 '''
 '''
 SETUP: Install the following command in terminal
